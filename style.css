@@ -1,0 +1,224 @@
+*{
+    background-color: #003142;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    /* font-family: "Manrope"; */
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    color: #3bf0c6;
+    position: absolute;
+    font-size: 170px;
+    bottom: 120px;
+    left: 190px;
+    background: none;
+}
+h3{
+    color: white;
+    /* background: transparent; */
+    position: absolute;
+    bottom: 40px;
+    left: 190px;
+    background: none;
+
+}
+button{
+    background-color: #3bf0c6;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    height: 100px;
+}
+img[alt = "logo"]{
+    height: 40px;
+    margin-right: 65%;
+    margin-top: 20px;
+}
+img[alt = "avatar3"]{
+    position: relative;
+    background: none;
+    right: 40vw;
+    bottom: 35vh;
+    height: 180px;
+}
+img[alt = "avatar5"]{
+position: relative;
+background :none;
+bottom: 98vh;
+left: 20vw;
+height: 150px;
+
+}
+img[alt = "avatar2"]{
+    position: relative;
+    background :none;
+    bottom: 12vh;
+    left: 33vw;
+    height: 180px;
+    
+}
+img[alt = "avatar1"]{
+    position: relative;
+    background :none;
+    bottom: -70vh;
+    left: 40vw;
+    height: 150px;
+    
+}
+img[alt = "avatar4"]{
+    position: relative;
+    background :none;
+    bottom: -30vh;
+    left: 25vw;
+    height: 300px;
+
+    
+}
+img[alt = "avatar6"]{
+    position: relative;
+    background :none;
+    bottom: 74vh;
+    left: 10.99vw;
+    height: 140px;
+    
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+button{
+    padding: 20px 30px;
+    font-size: larger;
+    font-weight: 700;
+    border-radius: 5px;
+    position: absolute;
+    top: 100vh;
+    left: 12vw;
+}
+footer{
+    position: absolute;
+    bottom: -300px;
+    left: 150px;
+    background: none;
+    display: flex;
+
+
+    
+}
+.twitter{
+    height: 50px;
+}
+
+h2{
+    margin-left: 20px;
+    margin-top: 10px;
+    color: white;
+    background: none;
+}
+
+/* tablet view */
+@media only screen and (max-width: 768px){
+    h1{
+        font-size: 80px;
+        margin-left: -100px;
+    }
+    img[alt = "avatar3"]{
+        position: relative;
+        background: none;
+        right: 30vw;
+        bottom: 45vh;
+        height: 150px;
+    }
+    img[alt = "avatar2"]{
+        height: 150px;
+        top: -150px;
+    }
+    img[alt = "avatar4"]{
+        height: 250px;
+
+    }
+    img[alt = "avatar1"]{
+        height: 140px;
+        top: 40vh;
+        left: 30vw;
+
+    }
+    img[alt = "avatar5"]{
+        height: 150px;
+        top: -90vh;
+        left: 100px;
+
+    }
+    img[alt = "avatar6"]{
+        height: 120px;
+        left: 150px;
+        top: -70vh;
+    }
+    h3{
+        margin-left: -100px;
+    }
+
+    footer{
+        bottom: -50vh;
+        margin-left: -60px;
+    }
+
+}
+
+/* mobile view */
+@media only screen and (max-width: 426px){
+    img[alt ="logo"]{
+        margin-left: 20px;
+    }
+    img[alt ="avatar5"],img[alt ="avatar4"],img[alt ="avatar1"]{
+        display: none;
+    }
+    img[alt ="avatar3"]{
+        position: absolute;
+        top: 25vh;
+        left: 30px;
+    }
+    img[alt ="avatar2"]{
+        position: absolute;
+        top: 20vh;
+        left: 30vh;
+        height: 170px;
+    }
+    h1{
+        font-size: 50px;
+        left: 30vw;
+        top: 40vh;
+    }
+    h3{
+        font-size: 18px;
+        left: 30vw;
+        top: 66vh;
+    }
+    button{
+        left: 7vw;
+        top: 79vh;
+    }
+    img[alt ="avatar6"]{
+        position: absolute;
+        height: 150px;
+        left: 50vw;
+        top: 86vh;
+    }
+    footer{
+        position: absolute;
+        bottom: -130px;
+        left: 90px;
+        margin-bottom: 30px;
+    }
+}
